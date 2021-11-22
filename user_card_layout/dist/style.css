@@ -181,21 +181,21 @@ template {
 
 @font-face {
   font-family: 'Lato', sans-serif;
-  src: url(/fonts/Lato/Lato-Regular.ttf) format("truetype");
+  src: url(../fonts/Lato/Lato-Regular.ttf) format("truetype");
   font-weight: normal;
   font-style: normal
 }
 
 @font-face {
   font-family: 'Lato', sans-serif;
-  src: url(/fonts/Lato/Lato-Bold.ttf) format("truetype");
+  src: url(../fonts/Lato/Lato-Bold.ttf) format("truetype");
   font-weight: bold;
   font-style: normal
 }
 
 @font-face {
   font-family: 'Lato', sans-serif;
-  src: url(/fonts/Lato/Lato-Italic.ttf) format("truetype");
+  src: url(../fonts/Lato/Lato-Italic.ttf) format("truetype");
   font-weight: normal;
   font-style: italic
 }
@@ -206,21 +206,21 @@ template {
 
 @font-face {
   font-family: 'Lato', sans-serif;
-  src: url(/fonts/Lato/Lato-Regular.ttf) format("truetype");
+  src: url(../fonts/Lato/Lato-Regular.ttf) format("truetype");
   font-weight: normal;
   font-style: normal
 }
 
 @font-face {
   font-family: 'Lato', sans-serif;
-  src: url(/fonts/Lato/Lato-Bold.ttf) format("truetype");
+  src: url(../fonts/Lato/Lato-Bold.ttf) format("truetype");
   font-weight: bold;
   font-style: normal
 }
 
 @font-face {
   font-family: 'Lato', sans-serif;
-  src: url(/fonts/Lato/Lato-Italic.ttf) format("truetype");
+  src: url(../fonts/Lato/Lato-Italic.ttf) format("truetype");
   font-weight: normal;
   font-style: italic
 }
@@ -301,6 +301,7 @@ body {
 
 .avatar {
   margin-bottom: 24px;
+  object-fit: cover;
   border: 5px solid #fff;
   border-radius: 50%
 }
@@ -326,13 +327,13 @@ body {
 
 .user_information__age {
   padding-left: 9px;
+  font-weight: normal;
   color: #6B7082
 }
 
 .user_information__city {
   margin: 0;
   font-size: 14px;
-  line-height: 14px;
   color: #6B7082
 }
 
