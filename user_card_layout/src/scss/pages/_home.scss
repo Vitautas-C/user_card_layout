@@ -73,6 +73,7 @@ body {
 
 .avatar {
     margin-bottom: 24px;
+    object-fit: cover;
     border: 5px solid#FFF;
     border-radius: 50%;
 }
@@ -98,13 +99,13 @@ body {
 
 .user_information__age {
     padding-left: 9px;
+    font-weight: normal;
     color: #6B7082;
 }
 
 .user_information__city {
     margin: 0;
     font-size: 14px;
-    line-height: 14px;
     color: #6B7082;
 }
 
